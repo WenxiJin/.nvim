@@ -37,6 +37,12 @@ vim.api.nvim_create_autocmd({ "BufNewFile", "BufRead" }, {
     group = "STFiletype",
 })
 
+-- Set the filetype to 'groovy' for .jenkinsfile, .jobdsl files
+vim.api.nvim_create_autocmd({ "BufRead", "BufNewFile" }, {
+    pattern = "*.jenkinsfile, *.jobdsl",
+    command = "set filetype=groovy",
+})
+
 -- telescope-config.lua
 local M = {}
 
