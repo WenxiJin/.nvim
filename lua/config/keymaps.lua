@@ -10,5 +10,6 @@ vim.keymap.del("n", "<leader>ss")
 
 -- Set a new keymap <leader>ss to a Telescope command
 vim.keymap.set("n", "<leader>ss", "<cmd>Telescope current_buffer_fuzzy_find<cr>", opts)
+vim.keymap.set("n", "<leader>sS", "<cmd>Telescope live_grep search_dirs=.<cr>", opts)
 vim.keymap.set("n", "<leader>pp", "<cmd>Telescope projects<cr>", opts)
 vim.keymap.set("n", "<leader>sg", "<cmd>Telescope live_grep_args<cr>", opts)
