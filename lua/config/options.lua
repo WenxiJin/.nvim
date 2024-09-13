@@ -39,7 +39,7 @@ vim.api.nvim_create_autocmd({ "BufNewFile", "BufRead" }, {
 
 -- Set the filetype to 'groovy' for .jenkinsfile, .jobdsl files
 vim.api.nvim_create_autocmd({ "BufRead", "BufNewFile" }, {
-    pattern = "*.jenkinsfile, *.jobdsl",
+    pattern = { "*.jenkinsfile", "*.jobdsl" },
     command = "set filetype=groovy",
 })
 
