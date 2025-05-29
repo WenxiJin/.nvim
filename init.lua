@@ -4,7 +4,7 @@ require("config.lazy")
 -- colorscheme
 vim.o.background = "light" -- or "light" for light mode
 vim.cmd([[colorscheme gruvbox]])
--- vim.cmd([[colorscheme tokyonight-day]])
+-- vim.cmd([[colorscheme tokyonight]])
 
 vim.o.tabstop = 4 -- A TAB character looks like 4 spaces
 vim.o.expandtab = true -- Pressing the TAB key will insert spaces instead of a TAB character
