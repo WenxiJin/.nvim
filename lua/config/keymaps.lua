@@ -32,4 +32,4 @@ local function OpenInSystemApp()
 
     vim.fn.jobstart(opener, { detach = true })
 end
-vim.keymap.set("n", "<leader>o", OpenInSystemApp, { desc = "Open in system default app" })
+vim.keymap.set("n", "<leader>fo", OpenInSystemApp, { desc = "Open in system default app" })
