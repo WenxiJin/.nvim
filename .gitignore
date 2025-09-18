@@ -6,3 +6,8 @@ debug
 foo.*
 *.log
 data
+
+ginit.vim
+lazy-lock.json
+lazyvim.json
+lua/plugins/neotree.lua
